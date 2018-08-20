@@ -5,7 +5,6 @@ def prime?(integer)
     else
       if integer % 1 != 0 || integer.non-zero?
         false
-      end
     end
   end
 end
