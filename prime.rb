@@ -3,7 +3,11 @@ def prime?(integer)
     if integer % i == 0 
       true
     else
-      if integer % 1 != 0 || integer 
+      if integer % 1 != 0 || integer.non-zero?
+        false
+      end
+    end
+  end
 end
 
 
