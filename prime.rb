@@ -3,5 +3,5 @@ def prime?(integer)
     integer % i == 0 ? true : false
   end
 end
-
+end
 
