@@ -1,6 +1,9 @@
 def prime?(integer)
   (2...integer).none? |i|
-  integer % i == 0 ? true : false
+    if integer % i == 0 
+      true
+    else
+      if integer % 1 != 0 || integer 
 end
 
 
