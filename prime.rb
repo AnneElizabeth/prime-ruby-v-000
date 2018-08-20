@@ -1,8 +1,4 @@
-def prime?(integer)
-  (2...integer).none? |i| 
-    if integer % i == 0
-      true
-    else
-      false
-    end
+def prime?(number)
+  (2...integer).none? {|i| integer % i == 0}
+  
 end
